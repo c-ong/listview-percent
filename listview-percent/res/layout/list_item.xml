@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"    
+    android:padding="4dp" >
+
+    <TextView
+        android:id="@+id/prcent"
+        android:layout_width="wrap_content"
+        android:layout_weight=".5"
+        android:layout_height="20dp"
+        android:background="@drawable/list_item_background"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/prcent_secondary"
+        android:layout_width="wrap_content"
+        android:layout_weight=".5"
+        android:layout_height="20dp"
+        android:background="@drawable/list_item_background"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
